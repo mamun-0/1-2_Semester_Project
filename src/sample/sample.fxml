@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="432.0" prefWidth="634.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <JFXButton fx:id="bmiButton" layoutX="231.0" layoutY="83.0" prefHeight="70.0" prefWidth="160.0" style="-fx-background-color: #fb2929;" text="BMI" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="dietChartButton" layoutX="231.0" layoutY="181.0" prefHeight="70.0" prefWidth="160.0" style="-fx-background-color: #1b51a0;" text="DIET CHART" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+      <JFXButton fx:id="birthdayButton" layoutX="231.0" layoutY="278.0" prefHeight="70.0" prefWidth="160.0" style="-fx-background-color: #9a00ae;" text="BIRTHDAY" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </JFXButton>
+   </children>
+</AnchorPane>

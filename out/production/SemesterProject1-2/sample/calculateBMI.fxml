@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="133.0" prefWidth="437.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.CalculateBMI">
+   <children>
+      <HBox prefHeight="62.0" prefWidth="437.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #fb9339;" text="Your BMI:" textFill="WHITE">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Label>
+            <Label fx:id="bmiValue" alignment="CENTER" prefHeight="62.0" prefWidth="320.0" style="-fx-background-color: #20c55a;" text="Value" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutY="62.0" prefHeight="36.0" prefWidth="437.0" style="-fx-border-style: dashed;">
+         <children>
+            <Label alignment="CENTER" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #b7c54a;" text="Underweight" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #20c55a;" text="Normal Weight" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="127.0" layoutY="10.0" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #ee2d2d;" text="Overweight" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="244.0" layoutY="10.0" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #c50101;" text="Obese" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox layoutY="98.0" prefHeight="36.0" prefWidth="437.0">
+         <children>
+            <Label alignment="CENTER" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #b7c54a;" text="&lt;18.5" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #20c55a;" text="18.5-25" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="127.0" layoutY="10.0" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #ee2d2d;" text="25-30" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label alignment="CENTER" layoutX="244.0" layoutY="10.0" prefHeight="62.0" prefWidth="117.0" style="-fx-background-color: #c50101;" text="&gt;30" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>
